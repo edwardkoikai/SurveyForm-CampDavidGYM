@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+        <title>Survey form</title>
+    
+        <meta charset="utf-8">
+    
+        <link href="styles.css" rel="stylesheet">
+  
+    </head>
+  
+    <body>
+    
+        <h1 id="title">Camp David GYM Membership Form</h1>
+    
+        <p name="description" id="description">Please fill out this form with the required information</p>
+  
+    
+        <form id="survey-form">
+        
+            <fieldset>
+            
+                <label for="name-label" id="name-label">First Name<input id="name" type="text" name="firstname" placeholder="Enter first Name" required/></label>
+            
+                <label for="lastname">Last Name<input id="lastname" type="text" name="lastname" placeholder="Enter last Name"/></label>
+            
+                <label for="idno">Id Number<input id="idno" type="number" name="idno" placeholder="Enter idno."/ pattern="^[0-9]*$"></label>
+            
+                <label for="age" id="number-label">Age<input id="number" type="number" name="age" min="12" max="85" required/ placeholder="Enter Age"></label>
+            
+                <label for="gender">Gender/sex
+                <label for="gender"><input type="radio" class="button" name="gender" id="gender" value="male">Male</label>
+                <label for="gender"><input type="radio" class="button" name="gender" id="gender" value="female">Female</label>
+            
+            
+                <label for="email" id="email-label">Email<input id="email" type="email" name="email" placeholder="email@gmail.com" pattern="^[a-zA-Z0-9]{5}@[a-zA-Z0-9]{2,10}.(es|com|org)$" required /></label>
+      
+            
+                <label for="address">Physical Address<input id="address" type="text" name="address"/></label>
+    
+        
+            </fieldset>
+    
+        
+            <fieldset>
+      
+            
+                <label for="subscription">Which package have you subscribed to?
+        
+                
+                    <select id="dropdown">
+          
+                    
+                        <option value="">Select your package</option>
+          
+                    
+                        <option value="1">Bronze @ksh.2,000 per month</option>
+          
+                    
+                        <option value="2">Silver @ksh.4,000 per month</option>
+          
+                    
+                        <option value="3">Bronze @ksh.6,500 per month</option>
+          
+                    
+                        <option value="4">Gold @ksh.8,500 per month</option>
+          
+                    
+                        <option value="5">Bronze @ksh.12,000 per month</option>
+        
+                
+                    </select>
+      
+            
+                
+                </label>
+    
+        
+            </fieldset>
+    
+        
+            <fieldset>
+        
+            
+                <label for="health-condition">Have you been diagnosed with any of the following health condition?
+            
+                
+                    <label for="health-condition"><input type="checkbox" class="button" id="health-condition" name="health-condition" value="Diabetes"/>Diabetes</label>
+            
+                
+                    <label for=""health-condition"><input type="checkbox" class="button" id="health-condition" name="health-condition" value="HBP"/>High Blood Pressure</label>
+            
+                
+                    <label><input type="checkbox" id="health-condition" class="button" name="health-condition" value="Asthma"/>Asthma</label>
+            
+                
+                    <label><input type="checkbox" id="health-condition" class="button" name="health-condition" value="Heart-cancer"/>Heart Cancer</label>
+            
+                
+                    <label><input type="checkbox" class="button" id="health-condition" name="health-condition" value="Kidney-failure"/>Kidney Failure</label>
+            
+                
+                    <label><input type="checkbox" class="button" id="health-condition" name="health-condition" value="liver"/>Liver Problem</label>
+            
+                
+                    <label><input type="checkbox" class="button" id="health-condition" name="health-condition" value="skin-infection"/>Any Skin Infection</label>
+            
+                
+                    <label><input type="checkbox" class="button" id="health-condition" name="health-condition" value="other"/>Any other</label>
+        
+            
+                </label>
+    
+
+    
+        
+            </fieldset>
+    
+        
+            <fieldset>
+        
+            
+                <label>What do would you like to be improved?(please tick all that apply)
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="Air-condition"/>Air Conditioning</label>
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="room-space"/>Room Space</label>
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="coach"/>Fitness coach</label>
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="facilities"/>Facilities</label>
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="opening-hours"/>Opening Hours</label>
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="prices"/>Gym Prices</label>
+        
+            
+                </label>
+    
+        
+            </fieldset>
+    
+        
+            <fieldset>
+        
+            
+                <label>Which of our Gym classes to attend(please tick all that apply)
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="salsa"/>Salsa classes</label>
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="Aerobics"/>Aerobics classes</label>
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="Hiking"/>Hiking</label>
+          
+                
+                    <label><input type="checkbox" class="button" id="suggestion" name="suggestion" value="yoga"/>Yoga Classes</label>
+        
+            
+                </label>
+    
+        
+            </fieldset>
+    
+        
+            <fieldset>
+
+        
+            
+                <label>What is your experience with our Gym classes<textarea name="comment" id="comment" placeholder="Please leave a comment or suggestion" rows="3" cols="30"></textarea></label>
+    
+        
+            </fieldset>
+    
+        
+            
+            <fieldset>
+        
+            
+                <label for="terms-and-conditions"><input type="checkbox" class="button" id="terms-and-conditions" name="terms-and-conditions" value="terms-and-conditions"/>Please read our <a href="https://www.livingston.org/Page/4587">Terms and Conditions</a></label>
+    
+        
+        
+            </fieldset>
+    
+        
+        
+        
+            <fieldset>
+        
+            
+            
+            
+                <label for="submit"><input type="submit" value="submit" id="submit"/></label>
+    
+        
+        
+            </fieldset>
+            <footer>
+                <p>Push through the pain. Every Single Day!</>
+            </footer
+    
+    
+    
+    
+    
+        </form>
+        
+
+
+ 
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    color: #FFF;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images7.alphacoders.com/114/1145219.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  form{
+    background-color: rgba(43,104,157,.64);
+    max-width: 680px;
+    min-width: 300px;
+    padding: 20px;
+    margin: auto;
+  
+  }
+  h1, p{
+    text-align: center;
+    padding: 10px 0;
+    color: #FFF;
+  
+  }
+  p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  fieldset{
+    border: 0;
+    margin: 15px;
+  }
+  label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+  
+  }
+  input, textarea, select{
+    margin: 4px 0 1px 1px;
+    width: 100%;
+    min-height: 2.5em;
+  
+  }
+  .button{
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+  }
+  #survey-form input[type="text"]:focus,
+  #survey-form input[type="email"]:focus,
+  #survey-form input[type="number"]:focus{
+    margin-left: -10px;
+    position: relative !important;
+  }
+  input, textarea{
+    background-color: #dfdff7;
+    color: #0a0a23;
+  
+    
+  }
+  input{
+    font-size: 1.0rem;
+    font-weight: bolder;
+    font-family: "Times Roman";
+  }
+  input[type="submit"]{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #0a0a23
+  }
+  select{
+    color: #0a0a23;
+    background-color: #dfdff7;
+    font-weight: bold;
+    font-size: 16;
+    font-family: "Times Roman"
+  
+  }
+  a{
+    color: black;
+  }
+  a:visited{
+    color: #dfdff7;
+  }
+  a:hover{
+    color: red;
+  }
+  input[type="checkbox"]{
+    overflow: hidden;
+    width: 18px;
+    background-color:  #dfdff7;
+  
+  }
